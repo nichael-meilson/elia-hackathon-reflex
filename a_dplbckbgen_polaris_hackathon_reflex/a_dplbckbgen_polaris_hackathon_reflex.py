@@ -5,15 +5,12 @@ from .views.download.container import download_container
 from .backend.backend import State
 from .views.navbar import navbar
 from .views.data_product.container import data_product_container
+from .views.search_data.container import search_data_container
 
 def index() -> rx.Component:
     return rx.vstack(
         navbar(),
-        rx.heading("Search Data", size="5"),
-        rx.hstack(
-            data_product_container(),
-            download_container()
-        )
+        search_data_container()
     )
 
 
