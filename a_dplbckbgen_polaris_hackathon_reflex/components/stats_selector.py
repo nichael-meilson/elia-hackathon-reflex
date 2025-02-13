@@ -131,36 +131,36 @@ def _salary_selector() -> rx.Component:
     )
 
 
-def stats_selector() -> rx.Component:
-    return rx.accordion.root(
-        rx.accordion.item(
-            header=_accordion_header_stat("shield-half", "Teams", "teams"),
-            content=_items_selector("teams", teams_dict),
-            value="teams",
-        ),
-        rx.accordion.item(
-            header=_accordion_header_stat("person-standing", "Positions", "positions"),
-            content=_items_selector("positions", position_dict),
-            value="positions",
-        ),
-        rx.accordion.item(
-            header=_accordion_header_stat("graduation-cap", "Colleges", "colleges"),
-            content=_items_selector("colleges", college_dict),
-            value="colleges",
-        ),
-        rx.accordion.item(
-            header=_accordion_header("user", "Age"),
-            content=_age_selector(),
-            value="age",
-        ),
-        rx.accordion.item(
-            header=_accordion_header("dollar-sign", "Salary"),
-            content=_salary_selector(),
-            value="salary",
-        ),
-        collapsible=True,
-        default_value="teams",
-        type="single",
-        variant="ghost",
-        width="100%",
-    )
+# def stats_selector() -> rx.Component:
+#     return rx.accordion.root(
+#         rx.accordion.item(
+#             header=_accordion_header_stat("shield-half", "Teams", "teams"),
+#             content=_items_selector("teams", teams_dict),
+#             value="teams",
+#         ),
+#         rx.accordion.item(
+#             header=_accordion_header_stat("person-standing", "Positions", "positions"),
+#             content=_items_selector("positions", position_dict),
+#             value="positions",
+#         ),
+#         rx.accordion.item(
+#             header=_accordion_header_stat("graduation-cap", "Colleges", "colleges"),
+#             content=_items_selector("colleges", college_dict),
+#             value="colleges",
+#         ),
+#         rx.accordion.item(
+#             header=_accordion_header("user", "Age"),
+#             content=_age_selector(),
+#             value="age",
+#         ),
+#         rx.accordion.item(
+#             header=_accordion_header("dollar-sign", "Salary"),
+#             content=_salary_selector(),
+#             value="salary",
+#         ),
+#         collapsible=True,
+#         default_value="teams",
+#         type="single",
+#         variant="ghost",
+#         width="100%",
+#     )

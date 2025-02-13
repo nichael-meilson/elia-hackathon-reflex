@@ -1,14 +1,13 @@
 import reflex as rx
 
-from ...backend.backend import Player, State
+from ...backend.backend import Job, State
 from ...backend.data_items import position_dict, teams_dict
 from ...components.item_badges import item_badge
 
 
-def _header_cell(text: str, icon: str) -> rx.Component:
+def _header_cell(text: str) -> rx.Component:
     return rx.table.column_header_cell(
         rx.hstack(
-            rx.icon(icon, size=18),
             rx.text(text),
             align="center",
             spacing="2",
@@ -16,7 +15,7 @@ def _header_cell(text: str, icon: str) -> rx.Component:
     )
 
 
-def _show_player(player: Player, index: int) -> rx.Component:
+def _show_job(job: Job, index: int) -> rx.Component:
     bg_color = rx.cond(
         index % 2 == 0,
         rx.color("gray", 1),
@@ -28,15 +27,12 @@ def _show_player(player: Player, index: int) -> rx.Component:
         rx.color("accent", 3),
     )
     return rx.table.row(
-        rx.table.row_header_cell(player.name),
-        rx.table.cell(item_badge(player.team, teams_dict)),
-        rx.table.cell(player.number),
-        rx.table.cell(item_badge(player.position, position_dict)),
-        rx.table.cell(player.age),
-        rx.table.cell(player.height),
-        rx.table.cell(player.weight),
-        rx.table.cell(player.college),
-        rx.table.cell(player.salary),
+        rx.table.row_header_cell(job.scheduleid),
+        rx.table.cell(job.version),
+        rx.table.cell(job.date_utc),
+        rx.table.cell(job.direction),
+        rx.table.cell(job.power),
+        rx.table.cell(job.deliverypoint),
         style={"_hover": {"bg": hover_color}, "bg": bg_color},
         align="center",
     )
@@ -119,15 +115,12 @@ def main_table() -> rx.Component:
             ),
             rx.select(
                 [
-                    "name",
-                    "team",
-                    "number",
-                    "position",
-                    "age",
-                    "height",
-                    "weight",
-                    "college",
-                    "salary",
+                    "scheduleid",
+                    "version",
+                    "date_utc",
+                    "direction",
+                    "power",
+                    "deliverypoint",
                 ],
                 placeholder="Sort By: Name",
                 size="3",
@@ -161,21 +154,18 @@ def main_table() -> rx.Component:
         rx.table.root(
             rx.table.header(
                 rx.table.row(
-                    _header_cell("Name", "square-user-round"),
-                    _header_cell("Team", "shield-half"),
-                    _header_cell("Number", "hash"),
-                    _header_cell("Position", "person-standing"),
-                    _header_cell("Age", "user"),
-                    _header_cell("Height", "ruler"),
-                    _header_cell("Weight", "weight"),
-                    _header_cell("College", "graduation-cap"),
-                    _header_cell("Salary", "dollar-sign"),
+                    _header_cell("MwScheduleId"),
+                    _header_cell("Version"),
+                    _header_cell("VersionDate_UTC"),
+                    _header_cell("Direction"),
+                    _header_cell("Power"),
+                    _header_cell("Delivery Point"),
                 ),
             ),
             rx.table.body(
                 rx.foreach(
                     State.get_current_page,
-                    lambda player, index: _show_player(player, index),
+                    lambda job, index: _show_job(job, index),
                 )
             ),
             variant="surface",
