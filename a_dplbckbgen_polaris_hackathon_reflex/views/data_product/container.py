@@ -27,7 +27,7 @@ def data_product_container():
                     rx.tabs.list(
                         _tabs_trigger("Preview Data", "table-2", value="table"),
                         _tabs_trigger("Overview", "bar-chart-3", value="stats"),
-                        _tabs_trigger("Create Query", "table-2", value="table"),
+                        _tabs_trigger("Create Query", "table-2", value="text"),
                     ),
                     rx.tabs.content(
                         main_table(),

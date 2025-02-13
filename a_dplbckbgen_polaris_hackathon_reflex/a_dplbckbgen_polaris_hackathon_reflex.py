@@ -1,10 +1,7 @@
 import reflex as rx
 
-from .views.download.container import download_container
-
 from .backend.backend import State
 from .views.navbar import navbar
-from .views.data_product.container import data_product_container
 from .views.search_data.container import search_data_container
 
 def index() -> rx.Component:
@@ -34,5 +31,4 @@ app.add_page(
     index,
     on_load=State.load_entries,
     title="DataLink",
-    description="NBA Data for the 2015-2016 season.",
 )
