@@ -19,7 +19,7 @@ def download_container():
                 rx.tabs.list(
                     _tabs_trigger("Export", "table-2", value="table"),
                     _tabs_trigger("API", "bar-chart-3", value="stats"),
-                    _tabs_trigger("Python", "table-2", value="table"),
+                    _tabs_trigger("Python", "table-2", value="text"),
                 ),
                 rx.text("Download the selected data in CSV format."),
                 rx.button("Export Data"),

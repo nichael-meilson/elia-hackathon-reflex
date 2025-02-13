@@ -1663,6 +1663,41 @@ wheel = ">=0.42.0,<1.0"
 wrapt = {version = ">=1.14.0,<2.0", markers = "python_version >= \"3.11\""}
 
 [[package]]
+name = "reflex-ag-grid"
+version = "0.0.10"
+description = "AGGrid wrapping for Reflex"
+optional = false
+python-versions = ">=3.10"
+groups = ["main"]
+markers = "python_version == \"3.11\" or python_version >= \"3.12\""
+files = [
+    {file = "reflex_ag_grid-0.0.10-py3-none-any.whl", hash = "sha256:1e6cc92aaa7f314f56669eb5caf9cc44d862dd0237d0be15aad1c6f267247a73"},
+    {file = "reflex_ag_grid-0.0.10.tar.gz", hash = "sha256:d1aef1005ae9b13ba265df1fe2aaee7a871b9f1310c599fe77cc216336620965"},
+]
+
+[package.dependencies]
+reflex = ">=0.6.3"
+
+[package.extras]
+dev = ["build", "twine"]
+
+[[package]]
+name = "reflex-chakra"
+version = "0.6.3"
+description = "reflex using chakra components"
+optional = false
+python-versions = "<4.0,>=3.9"
+groups = ["main"]
+markers = "python_version == \"3.11\" or python_version >= \"3.12\""
+files = [
+    {file = "reflex_chakra-0.6.3-py3-none-any.whl", hash = "sha256:f3b92ba399451986ae5d09341265ca1e134edfdc2fab3a57ea83b7f652469d9a"},
+    {file = "reflex_chakra-0.6.3.tar.gz", hash = "sha256:ff7c1c7638809c99104997bffbf861793c832f6d2288e30bd4ace65fec0f40e3"},
+]
+
+[package.dependencies]
+reflex = ">=0.6.0a"
+
+[[package]]
 name = "reflex-hosting-cli"
 version = "0.1.35"
 description = "Reflex Hosting CLI"
@@ -2302,4 +2337,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "3cf4637ccda731eda9e08d4f0ec8004a437e5fbf686dd0f4b570f880c1e20bae"
+content-hash = "4f75939411d30e03bb8fd2a50bdb3b5dc9084fd6c39cd4f1f2ca4a678ab1f8ff"
