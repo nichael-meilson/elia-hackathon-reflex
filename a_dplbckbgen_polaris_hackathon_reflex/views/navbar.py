@@ -4,10 +4,10 @@ import reflex as rx
 def navbar():
     return rx.flex(
         rx.hstack(
-            rx.image(src="/ball.svg", height="38px"),
-            rx.heading("NBA DATA", size="7"),
+            rx.image(src="/elia.png", height="38px"),
+            rx.heading("DataLink", size="7"),
             rx.badge(
-                "2015-2016 season",
+                "Preview",
                 radius="full",
                 align="center",
                 color_scheme="orange",
@@ -17,7 +17,7 @@ def navbar():
         ),
         rx.spacer(),
         rx.hstack(
-            rx.logo(),
+            # rx.logo(),
             rx.color_mode.button(),
             align="center",
             spacing="3",

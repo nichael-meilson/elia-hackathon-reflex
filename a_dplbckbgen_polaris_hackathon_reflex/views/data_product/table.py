@@ -1,8 +1,8 @@
 import reflex as rx
 
-from ..backend.backend import Player, State
-from ..backend.data_items import position_dict, teams_dict
-from ..components.item_badges import item_badge
+from ...backend.backend import Player, State
+from ...backend.data_items import position_dict, teams_dict
+from ...components.item_badges import item_badge
 
 
 def _header_cell(text: str, icon: str) -> rx.Component:

@@ -1,7 +1,7 @@
 import reflex as rx
 
-from ..backend.backend import State
-from ..components.stats_selector import stats_selector
+from ...backend.backend import State
+from ...components.stats_selector import stats_selector
 
 
 class StatsState(rx.State):
@@ -19,7 +19,7 @@ class StatsState(rx.State):
 def _age_salary_chart() -> rx.Component:
     return rx.cond(
         StatsState.area_toggle,
-        rx.recharts.area_chart(
+        rx.recharts.area_chart( 
             rx.recharts.legend(),
             rx.recharts.graphing_tooltip(cursor=False),
             rx.recharts.cartesian_grid(),
@@ -256,6 +256,60 @@ def _area_toggle() -> rx.Component:
 
 
 def stats_ui() -> rx.Component:
+    return rx.flex(
+        rx.scroll_area(
+            stats_selector(),
+            scrollbars="vertical",
+            width=["100%", "100%", "100%", "45%"],
+            height=["100%", "100%", "100%", "calc(100vh - 300px)"],
+            type="always",
+        ),
+        rx.vstack(
+            rx.flex(
+                rx.select(
+                    value=StatsState.stats_view,
+                    items=[
+                        "age_salary",
+                        "age_team",
+                        "age_position",
+                        "position_salary",
+                        "team_salary",
+                        "college_salary",
+                    ],
+                    on_change=StatsState.set_stats_view,
+                    size="3",
+                    variant="soft",
+                    justify_content="end",
+                ),
+                rx.match(
+                    StatsState.stats_view,
+                    ("position_salary", "age_position", _radar_toggle()),
+                    (_area_toggle()),
+                ),
+                margin_bottom=["2em", "2em", "4em"],
+                spacing="4",
+                width="100%",
+            ),
+            rx.match(
+                StatsState.stats_view,
+                ("age_salary", _age_salary_chart()),
+                ("age_team", _age_team_chart()),
+                ("age_position", _age_position_chart()),
+                ("position_salary", _position_salary_chart()),
+                ("team_salary", _team_salary_chart()),
+                ("college_salary", _college_salary_chart()),
+            ),
+            width="100%",
+            justify="center",
+            padding_x=["0em", "0em", "0em", "0em", "6em"],
+        ),
+        flex_direction=["column-reverse", "column-reverse", "column-reverse", "row"],
+        spacing="9",
+        width="100%",
+    )
+
+
+def query_ui() -> rx.Component:
     return rx.flex(
         rx.scroll_area(
             stats_selector(),

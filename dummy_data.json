@@ -1,0 +1,802 @@
+[
+    {
+        "scheduleid": "715d4aeccb087cbce9fad05926a7dec5594193ebbdac993e8922af1e388b498a",
+        "version": 54,
+        "date_utc": "2021-04-04T07:15:53Z",
+        "direction": "offtake",
+        "power": 66.3,
+        "deliverypoint": "54878217983641"
+    },
+    {
+        "scheduleid": "96f5943ab13404aea516c136478134796991d2c78850b5a5105c45da5b17ea61",
+        "version": 92,
+        "date_utc": "2024-05-12T13:10:19Z",
+        "direction": "offtake",
+        "power": 51.95,
+        "deliverypoint": "54456356415478"
+    },
+    {
+        "scheduleid": "edeaee945534f3e6dba889802a21e340d6ac8d878719ce1034747eb111b2237e",
+        "version": 59,
+        "date_utc": "2020-10-23T03:32:22Z",
+        "direction": "injection",
+        "power": 1.01,
+        "deliverypoint": "54359233709330"
+    },
+    {
+        "scheduleid": "d9116d090288c401256cd439023aef841247b70e4e87192f035302646932540d",
+        "version": 26,
+        "date_utc": "2028-12-16T21:09:08Z",
+        "direction": "offtake",
+        "power": 18.41,
+        "deliverypoint": "54664320685134"
+    },
+    {
+        "scheduleid": "1a5bd65d0397dc8e9fe92f4152cd2f0d8ee4489b31de57fad10267357d945f25",
+        "version": 79,
+        "date_utc": "2022-04-11T02:49:25Z",
+        "direction": "offtake",
+        "power": 55.93,
+        "deliverypoint": "54457699655958"
+    },
+    {
+        "scheduleid": "bc967e6fb23d313117e7aa438f84f187f95207eb7487baa589964529964a86d6",
+        "version": 7,
+        "date_utc": "2022-09-11T16:52:39Z",
+        "direction": "injection",
+        "power": 43.49,
+        "deliverypoint": "54358061447590"
+    },
+    {
+        "scheduleid": "6143aee00c308db43a638f0741063f6579c98e0135f5eb70172e5868e8f0a28e",
+        "version": 7,
+        "date_utc": "2026-06-24T23:19:24Z",
+        "direction": "injection",
+        "power": 2.93,
+        "deliverypoint": "54933866000238"
+    },
+    {
+        "scheduleid": "63099d9dd4a8d857aaebe8400e58a36e45cd2e95abce8e3c0f102e7523c4c355",
+        "version": 26,
+        "date_utc": "2027-12-11T10:00:25Z",
+        "direction": "offtake",
+        "power": 38.22,
+        "deliverypoint": "54039421065400"
+    },
+    {
+        "scheduleid": "91ef7fc663697cfdc788fb242adfbf358c1f756aa9234d29a3eb69fcdd35bae9",
+        "version": 51,
+        "date_utc": "2020-10-17T19:16:50Z",
+        "direction": "injection",
+        "power": 67.0,
+        "deliverypoint": "54315054772505"
+    },
+    {
+        "scheduleid": "3df7c7c798a946a419e63571e1fc2ea2beba35e4a774be2bec6bd8bf2078e4f8",
+        "version": 19,
+        "date_utc": "2030-01-17T23:31:29Z",
+        "direction": "injection",
+        "power": 32.88,
+        "deliverypoint": "54003776040512"
+    },
+    {
+        "scheduleid": "194f3e106636b26c48099f3486867601b86433da7827911c9f65428119bbf5a2",
+        "version": 75,
+        "date_utc": "2027-01-12T20:58:52Z",
+        "direction": "offtake",
+        "power": 53.19,
+        "deliverypoint": "54411627641010"
+    },
+    {
+        "scheduleid": "5b80b004e9162a3badaa2d8ca526db73e5fd2341c7024baab4b5788dcf649774",
+        "version": 2,
+        "date_utc": "2020-08-11T11:17:34Z",
+        "direction": "offtake",
+        "power": 31.86,
+        "deliverypoint": "54014042975100"
+    },
+    {
+        "scheduleid": "1fd355da161fe6e9eae068baa06768d036d9ac5dab878309065e5ed6640a7721",
+        "version": 27,
+        "date_utc": "2030-11-06T20:22:52Z",
+        "direction": "offtake",
+        "power": 60.94,
+        "deliverypoint": "54922606253873"
+    },
+    {
+        "scheduleid": "ff0a4f3245a3f51760845e164d8dcc11abb5785d07da3287d4a8858bb36b104b",
+        "version": 45,
+        "date_utc": "2025-05-12T02:26:01Z",
+        "direction": "offtake",
+        "power": 5.04,
+        "deliverypoint": "54377372564406"
+    },
+    {
+        "scheduleid": "ff6f54215c12c0dabe9f270a20e15f008fdfed8da80726715d9d94cf97c014d3",
+        "version": 23,
+        "date_utc": "2021-09-14T09:59:07Z",
+        "direction": "offtake",
+        "power": 94.78,
+        "deliverypoint": "54916272520510"
+    },
+    {
+        "scheduleid": "3257ec6e3f41ae738d907e55cfe026fba18cf05f6394df0ac2e145bf047d041d",
+        "version": 22,
+        "date_utc": "2022-10-06T17:55:59Z",
+        "direction": "offtake",
+        "power": 74.97,
+        "deliverypoint": "54194943914399"
+    },
+    {
+        "scheduleid": "2477ed69a174dae72e1bc7582aee68ff38f1b7b91e17e571f96a7c7665c5e75f",
+        "version": 11,
+        "date_utc": "2028-11-03T23:08:10Z",
+        "direction": "offtake",
+        "power": 35.8,
+        "deliverypoint": "54874955368610"
+    },
+    {
+        "scheduleid": "428639f1b729f3a39d138594d2c484650c09160327506764d12ce4b657fcf693",
+        "version": 56,
+        "date_utc": "2027-12-29T01:59:29Z",
+        "direction": "injection",
+        "power": 27.43,
+        "deliverypoint": "54057284351696"
+    },
+    {
+        "scheduleid": "47dfac7d83ba2f03c62824a1d5834b00de5eb86ed2aeab8b4327ac363e3c65d3",
+        "version": 70,
+        "date_utc": "2022-05-04T09:51:41Z",
+        "direction": "injection",
+        "power": 1.46,
+        "deliverypoint": "54174581788651"
+    },
+    {
+        "scheduleid": "4e43a3ebd318395c7469254fc2245f61decf858e19764b3be819dcd93f525596",
+        "version": 16,
+        "date_utc": "2029-10-10T12:02:24Z",
+        "direction": "offtake",
+        "power": 30.37,
+        "deliverypoint": "54723574703529"
+    },
+    {
+        "scheduleid": "b64950bc006a470bfbd75838f71f710040fea2aa08718976f3ac74653cbf5ee4",
+        "version": 89,
+        "date_utc": "2022-09-15T17:09:58Z",
+        "direction": "offtake",
+        "power": 53.17,
+        "deliverypoint": "54397439551742"
+    },
+    {
+        "scheduleid": "7d67a3228d2a1a496609f3bdcb530d9df37c20c3b0fe6b35c912b6391dd5cce2",
+        "version": 21,
+        "date_utc": "2027-07-10T12:00:25Z",
+        "direction": "offtake",
+        "power": 4.17,
+        "deliverypoint": "54641838838206"
+    },
+    {
+        "scheduleid": "84a9025276cd3fc53555967fd289e1be6577391beed0b2b8ddbcc53752bc72f3",
+        "version": 34,
+        "date_utc": "2021-05-13T23:58:41Z",
+        "direction": "offtake",
+        "power": 94.26,
+        "deliverypoint": "54655549429680"
+    },
+    {
+        "scheduleid": "a4d1afe5b06e4bf02d77a9b6f2bc939f5c7c3ae004993b70bf49384cc3a68057",
+        "version": 84,
+        "date_utc": "2023-09-18T07:09:35Z",
+        "direction": "injection",
+        "power": 44.31,
+        "deliverypoint": "54841033273770"
+    },
+    {
+        "scheduleid": "8292e1e38f466e155443581136786f9afa1a40be7c8da435499155272ee63c2c",
+        "version": 99,
+        "date_utc": "2021-08-14T04:17:56Z",
+        "direction": "injection",
+        "power": 40.58,
+        "deliverypoint": "54632306846180"
+    },
+    {
+        "scheduleid": "373f3bec034012c350b49d8385ec245a5b94b2abc3fe50e0fb53ae7d8d9774c3",
+        "version": 74,
+        "date_utc": "2020-08-31T03:54:32Z",
+        "direction": "offtake",
+        "power": 8.97,
+        "deliverypoint": "54678749131548"
+    },
+    {
+        "scheduleid": "f05371fa7e9a75e1a091b32c0604fc2b3c0b573ca4a5a4bcf46645a026fcc568",
+        "version": 11,
+        "date_utc": "2029-12-29T16:37:32Z",
+        "direction": "offtake",
+        "power": 60.13,
+        "deliverypoint": "54487636287309"
+    },
+    {
+        "scheduleid": "71f8498f489fe91614216db10042f868f74c9f0e556f01ed739910161f2372e1",
+        "version": 68,
+        "date_utc": "2028-09-08T02:24:24Z",
+        "direction": "injection",
+        "power": 39.27,
+        "deliverypoint": "54514640123347"
+    },
+    {
+        "scheduleid": "ca90b49df6b4166347b98cbd7738ad2530bf19dd9e57159c3b4c1e04dd8186b2",
+        "version": 90,
+        "date_utc": "2022-09-30T21:32:52Z",
+        "direction": "injection",
+        "power": 48.59,
+        "deliverypoint": "54045214614622"
+    },
+    {
+        "scheduleid": "ba2918b4b1609ced52dc235e9b5a7161399e3c37ec2238d3b263785cdc7dd443",
+        "version": 81,
+        "date_utc": "2029-02-05T20:47:01Z",
+        "direction": "injection",
+        "power": 69.19,
+        "deliverypoint": "54879012213992"
+    },
+    {
+        "scheduleid": "af658b642fe7a3b4be7854360f13dc2e9a1134754d1e0eb937614f11f9be47e7",
+        "version": 16,
+        "date_utc": "2025-07-13T05:14:32Z",
+        "direction": "injection",
+        "power": 56.34,
+        "deliverypoint": "54647770131830"
+    },
+    {
+        "scheduleid": "f9f897f09320c590bb76634b73dbacf5fbf5993fbd39637b0811ad7a1bf68a69",
+        "version": 26,
+        "date_utc": "2030-09-29T23:02:28Z",
+        "direction": "offtake",
+        "power": 19.67,
+        "deliverypoint": "54819306015007"
+    },
+    {
+        "scheduleid": "1742cfffa01c30eb758993e083454930173d36ae1ecfbc4e166f156072c6385c",
+        "version": 44,
+        "date_utc": "2023-12-16T13:29:10Z",
+        "direction": "offtake",
+        "power": 58.94,
+        "deliverypoint": "54774713342087"
+    },
+    {
+        "scheduleid": "a36629860b6127e52b099b6f6b37e11e2316043dce8c1b478105b3ec07ca6379",
+        "version": 87,
+        "date_utc": "2028-12-26T01:05:29Z",
+        "direction": "offtake",
+        "power": 46.58,
+        "deliverypoint": "54991025853032"
+    },
+    {
+        "scheduleid": "15dddef29f3c26fcc380e30ea7a47e4a534709572772d218f82442adadd5bc96",
+        "version": 83,
+        "date_utc": "2022-10-17T21:41:56Z",
+        "direction": "offtake",
+        "power": 58.16,
+        "deliverypoint": "54301109819147"
+    },
+    {
+        "scheduleid": "2c37b5130b840d2018dc33e351168ae67c5469bd6bf23eece082c86f4c6b89ff",
+        "version": 85,
+        "date_utc": "2022-09-02T15:42:28Z",
+        "direction": "injection",
+        "power": 34.79,
+        "deliverypoint": "54008353650392"
+    },
+    {
+        "scheduleid": "32d426f8928497eed0ebaf709f666e37e44d027ae1b9cfa8ba865e7cef41dc2b",
+        "version": 50,
+        "date_utc": "2022-10-04T05:31:18Z",
+        "direction": "offtake",
+        "power": 64.15,
+        "deliverypoint": "54945084096472"
+    },
+    {
+        "scheduleid": "ef1243a079062a3257410e4350412380c39930c309737973677565884df3fab6",
+        "version": 89,
+        "date_utc": "2030-05-25T14:45:08Z",
+        "direction": "offtake",
+        "power": 17.15,
+        "deliverypoint": "54387005462703"
+    },
+    {
+        "scheduleid": "700b7ed1d31be0c7447c2747ee0f4acc0e85dba37a08096b1316fc793d49d71b",
+        "version": 60,
+        "date_utc": "2030-01-26T07:19:54Z",
+        "direction": "injection",
+        "power": 7.61,
+        "deliverypoint": "54436706130226"
+    },
+    {
+        "scheduleid": "5a230cb1e9d3bcbf64ac6faafbdb3e3124f50fed2ef1a5181be22f8a8bf458b6",
+        "version": 53,
+        "date_utc": "2020-04-27T05:34:40Z",
+        "direction": "injection",
+        "power": 24.53,
+        "deliverypoint": "54908062156424"
+    },
+    {
+        "scheduleid": "a41c5764130ca5a582586e5ed292cafadac59688b5c810c5c15432be734c2d2c",
+        "version": 92,
+        "date_utc": "2022-07-27T23:45:48Z",
+        "direction": "injection",
+        "power": 28.63,
+        "deliverypoint": "54329426324486"
+    },
+    {
+        "scheduleid": "e2f9a15e4bd917b655c50a5f5064369a5838dd48db4d3419655a689413f243e1",
+        "version": 88,
+        "date_utc": "2029-01-20T08:36:53Z",
+        "direction": "injection",
+        "power": 55.31,
+        "deliverypoint": "54022523841366"
+    },
+    {
+        "scheduleid": "07638cc5a1ec84aa97ed1268592d8bbc9903ee425d0547a0dd76cf7bee966ca2",
+        "version": 39,
+        "date_utc": "2025-09-23T15:40:46Z",
+        "direction": "injection",
+        "power": 95.2,
+        "deliverypoint": "54636688648617"
+    },
+    {
+        "scheduleid": "c9103ddff8e6c810608e817f4bdddf87964e35457072945aa10f4a6dd9b42f94",
+        "version": 19,
+        "date_utc": "2026-04-21T05:28:41Z",
+        "direction": "offtake",
+        "power": 16.34,
+        "deliverypoint": "54620929412655"
+    },
+    {
+        "scheduleid": "4748ec63e5f4f051b36195b33c47a349f90c213c96abfb4349b31c411dec7b7a",
+        "version": 67,
+        "date_utc": "2021-10-29T07:40:51Z",
+        "direction": "injection",
+        "power": 84.35,
+        "deliverypoint": "54670713403234"
+    },
+    {
+        "scheduleid": "3dff7456e0dabd60d02f24fcd81f81723b44b2141201588281acc2aae4671eac",
+        "version": 41,
+        "date_utc": "2020-07-20T05:37:51Z",
+        "direction": "injection",
+        "power": 11.45,
+        "deliverypoint": "54370596494235"
+    },
+    {
+        "scheduleid": "2cc971d84c9f35ce7877dcefcc909e6858a4718f1427f4255a09c7df6ff6ed1d",
+        "version": 26,
+        "date_utc": "2029-11-12T04:33:18Z",
+        "direction": "injection",
+        "power": 61.59,
+        "deliverypoint": "54621492563990"
+    },
+    {
+        "scheduleid": "d0016fb7d4a4b57ac5b016a6939e749e41cd6be59925eadadd8c0a7d4a731fba",
+        "version": 12,
+        "date_utc": "2025-11-10T15:39:13Z",
+        "direction": "injection",
+        "power": 68.17,
+        "deliverypoint": "54015212240584"
+    },
+    {
+        "scheduleid": "37663b23b9204ef23688eef1297518b1387b096e96158824596db8267ce657b5",
+        "version": 23,
+        "date_utc": "2027-07-14T17:42:21Z",
+        "direction": "offtake",
+        "power": 24.6,
+        "deliverypoint": "54408096624353"
+    },
+    {
+        "scheduleid": "c4d43d55ef46704e2ae08b713e708c969082343f9ac2eeb23da0e96b4af2308a",
+        "version": 64,
+        "date_utc": "2022-10-03T12:57:07Z",
+        "direction": "offtake",
+        "power": 7.84,
+        "deliverypoint": "54823245734258"
+    },
+    {
+        "scheduleid": "9d9e35ceb216b5681294401695ccad710f3572377e4b0ab5afce8983eefb778d",
+        "version": 40,
+        "date_utc": "2026-09-12T00:30:18Z",
+        "direction": "offtake",
+        "power": 42.9,
+        "deliverypoint": "54532435556606"
+    },
+    {
+        "scheduleid": "0b85b6a5d86fb3dd1a4e1f412e1a3e9a2a06acf5eed7b44c2f0bbefb46152aaa",
+        "version": 65,
+        "date_utc": "2021-09-03T07:23:23Z",
+        "direction": "injection",
+        "power": 42.37,
+        "deliverypoint": "54162378482053"
+    },
+    {
+        "scheduleid": "cdc215043667482e69f124be8c0fd8ba7c2eeffa1802785bfa129e8db4cb2556",
+        "version": 57,
+        "date_utc": "2022-06-08T15:46:57Z",
+        "direction": "injection",
+        "power": 22.0,
+        "deliverypoint": "54506390892571"
+    },
+    {
+        "scheduleid": "8c1ba8f3cfa9d205c37bdf93a93be437d46465eb03c5ec2b3dd496aec73acc1e",
+        "version": 48,
+        "date_utc": "2024-05-19T06:52:17Z",
+        "direction": "offtake",
+        "power": 88.91,
+        "deliverypoint": "54580767322201"
+    },
+    {
+        "scheduleid": "01a1d67f888d9dc54f9e58b04523b0932ed9260dcf72cd7555afa9f284d04b01",
+        "version": 52,
+        "date_utc": "2020-04-08T15:36:00Z",
+        "direction": "injection",
+        "power": 59.02,
+        "deliverypoint": "54554982991138"
+    },
+    {
+        "scheduleid": "b987e82856cf411764a1aeaab1d927dc9b4440528caacf80522e1031ddee1a3e",
+        "version": 70,
+        "date_utc": "2030-12-17T14:42:03Z",
+        "direction": "offtake",
+        "power": 84.9,
+        "deliverypoint": "54626790956586"
+    },
+    {
+        "scheduleid": "53f1ee356da1e154b241000844f8a8a614414efa1f07884afa0059f87c836c93",
+        "version": 25,
+        "date_utc": "2025-07-08T00:14:03Z",
+        "direction": "offtake",
+        "power": 86.82,
+        "deliverypoint": "54717175160663"
+    },
+    {
+        "scheduleid": "c6c2daca4b4bb9de291c24b83aa2796ae1e14b395186a0a0d750eca053d33c54",
+        "version": 74,
+        "date_utc": "2026-08-09T07:44:44Z",
+        "direction": "offtake",
+        "power": 98.79,
+        "deliverypoint": "54378602288781"
+    },
+    {
+        "scheduleid": "bbe6173837d2abf92e823926faa70c42f3c21811248efa795f451c40dfa8c304",
+        "version": 62,
+        "date_utc": "2021-08-25T19:40:51Z",
+        "direction": "injection",
+        "power": 10.57,
+        "deliverypoint": "54403977417685"
+    },
+    {
+        "scheduleid": "dca4502877fb38f244feb4325e6c273e2a7cafd4450360c7c86cbb9fd0cccc27",
+        "version": 18,
+        "date_utc": "2026-06-27T16:45:28Z",
+        "direction": "offtake",
+        "power": 70.08,
+        "deliverypoint": "54285552686579"
+    },
+    {
+        "scheduleid": "e237633508c876d0f7e2c1fadab130cf12a1e677aa7accb4ce4f2ecfb19c547d",
+        "version": 56,
+        "date_utc": "2030-10-04T13:55:37Z",
+        "direction": "offtake",
+        "power": 43.11,
+        "deliverypoint": "54845947736836"
+    },
+    {
+        "scheduleid": "fc881228efb0c1de9a104e394411844d45b02fc2cf99d118726894cd57114fcd",
+        "version": 95,
+        "date_utc": "2030-05-24T10:32:16Z",
+        "direction": "injection",
+        "power": 87.48,
+        "deliverypoint": "54665727935853"
+    },
+    {
+        "scheduleid": "e92a6278a50e83530e92d11cf8137a93d2010a4abf77bdab4a8b450849915ad7",
+        "version": 73,
+        "date_utc": "2025-06-12T01:40:47Z",
+        "direction": "offtake",
+        "power": 81.01,
+        "deliverypoint": "54740390788905"
+    },
+    {
+        "scheduleid": "bc14e445d0766eee828af53a3f1662621e76642e39a89dc856fdfff0232c4030",
+        "version": 100,
+        "date_utc": "2022-10-17T00:08:04Z",
+        "direction": "injection",
+        "power": 5.7,
+        "deliverypoint": "54236458023671"
+    },
+    {
+        "scheduleid": "2802dc163bbe9148d81ab297d4049b366c4e8b54feff5a12995cf375ddc4934f",
+        "version": 73,
+        "date_utc": "2026-07-13T11:10:21Z",
+        "direction": "injection",
+        "power": 9.53,
+        "deliverypoint": "54296368101206"
+    },
+    {
+        "scheduleid": "0f71a7691c2c77b669e886b3283d3aef2a3c059bb7c8727e8357f0dfbb56e199",
+        "version": 72,
+        "date_utc": "2023-08-23T13:20:48Z",
+        "direction": "injection",
+        "power": 44.7,
+        "deliverypoint": "54895774936355"
+    },
+    {
+        "scheduleid": "e645892aaaa6630f23bb7b9d24be38bfff823432b1ea107e3037781ed2349acd",
+        "version": 79,
+        "date_utc": "2021-04-22T07:33:21Z",
+        "direction": "injection",
+        "power": 99.29,
+        "deliverypoint": "54268755422507"
+    },
+    {
+        "scheduleid": "c3ab04b0cd729d2526b832ea4c7073b4c8ea7c38f2118644949bfb3fd07e48db",
+        "version": 54,
+        "date_utc": "2029-01-29T13:31:46Z",
+        "direction": "offtake",
+        "power": 9.3,
+        "deliverypoint": "54620148535379"
+    },
+    {
+        "scheduleid": "f45cdfe65e08d7c0444448c091d10a691ca4acf161ae045bd05e1cb31bfca29d",
+        "version": 75,
+        "date_utc": "2021-02-17T18:07:13Z",
+        "direction": "offtake",
+        "power": 70.95,
+        "deliverypoint": "54366446180672"
+    },
+    {
+        "scheduleid": "f777d2a06426a783b5a6b9ff36c71e24e841f71dfc153e8aecb980f6d96ca24f",
+        "version": 38,
+        "date_utc": "2022-08-30T06:13:29Z",
+        "direction": "injection",
+        "power": 31.51,
+        "deliverypoint": "54481313179769"
+    },
+    {
+        "scheduleid": "00faaf996b06e74615aeb35083f154ad660f21ad7d6902bbe15dee37a24b23ab",
+        "version": 87,
+        "date_utc": "2026-08-16T21:15:49Z",
+        "direction": "offtake",
+        "power": 64.96,
+        "deliverypoint": "54020125550899"
+    },
+    {
+        "scheduleid": "d73b90cd9b8fda531389fd75d29e7ff008fb1ef6a47ec69c8a30241494f09d4f",
+        "version": 67,
+        "date_utc": "2030-04-07T09:37:50Z",
+        "direction": "offtake",
+        "power": 92.71,
+        "deliverypoint": "54330573344630"
+    },
+    {
+        "scheduleid": "3cbbed3e9e03642fc3e951f4576f4d22c8b0b085b5d8413920e4f16e3939da42",
+        "version": 88,
+        "date_utc": "2028-06-25T03:35:48Z",
+        "direction": "offtake",
+        "power": 23.22,
+        "deliverypoint": "54494127629324"
+    },
+    {
+        "scheduleid": "02167d57f6323065a19fdf62041b6f83b1f52003b0751c84cd9e042f866b41a2",
+        "version": 66,
+        "date_utc": "2026-01-17T16:17:40Z",
+        "direction": "offtake",
+        "power": 12.31,
+        "deliverypoint": "54585297832120"
+    },
+    {
+        "scheduleid": "bc3df1336c9e64b098b3dc0f369613693244e44e61f58ac33ae896a697103c6d",
+        "version": 72,
+        "date_utc": "2024-04-30T13:01:08Z",
+        "direction": "injection",
+        "power": 88.22,
+        "deliverypoint": "54344826570020"
+    },
+    {
+        "scheduleid": "8639e8b18090e8f6d0f45a3f4673c4011d8d3359f9f1b0d2646c4e4915b43ea9",
+        "version": 48,
+        "date_utc": "2029-03-13T03:09:28Z",
+        "direction": "injection",
+        "power": 4.98,
+        "deliverypoint": "54572253587812"
+    },
+    {
+        "scheduleid": "2f7e2455cc4436d03a94b73df9f0dadfdc57a78683612b025e23c60f0e332239",
+        "version": 21,
+        "date_utc": "2030-09-15T05:35:50Z",
+        "direction": "injection",
+        "power": 50.45,
+        "deliverypoint": "54214671700287"
+    },
+    {
+        "scheduleid": "51c3662d1b32d012a3aa4a82d4ec2b34293752fc685a06cdde345fe7beeae3c0",
+        "version": 80,
+        "date_utc": "2026-11-26T20:04:16Z",
+        "direction": "offtake",
+        "power": 35.75,
+        "deliverypoint": "54810812609273"
+    },
+    {
+        "scheduleid": "618193bda4676c58292cd07dc56df8383bc81fb03f5b4a79f8cb60e41b952665",
+        "version": 21,
+        "date_utc": "2021-09-07T00:40:29Z",
+        "direction": "offtake",
+        "power": 49.73,
+        "deliverypoint": "54201704153377"
+    },
+    {
+        "scheduleid": "58bdd08e945ecc009edfb9578c44cde49434b77d7e19b52e734ba6120d9d22f6",
+        "version": 24,
+        "date_utc": "2021-08-21T10:34:12Z",
+        "direction": "injection",
+        "power": 72.77,
+        "deliverypoint": "54341647465172"
+    },
+    {
+        "scheduleid": "3e9eb173f98774aa3a26262affe6fe661673696d8faf131fea996e15e1cceea5",
+        "version": 43,
+        "date_utc": "2029-10-26T17:29:20Z",
+        "direction": "injection",
+        "power": 37.93,
+        "deliverypoint": "54507253487978"
+    },
+    {
+        "scheduleid": "d595b0f66bbac76cace15d7821d1e332cbbc5c3045a606a324260bf7330cde4b",
+        "version": 96,
+        "date_utc": "2021-06-09T11:06:45Z",
+        "direction": "offtake",
+        "power": 52.63,
+        "deliverypoint": "54083298823541"
+    },
+    {
+        "scheduleid": "8a0a5450cd2be360c677149c2dba894e222f3c05e71f5dbda507895d995a1e56",
+        "version": 25,
+        "date_utc": "2028-07-14T04:04:24Z",
+        "direction": "offtake",
+        "power": 29.19,
+        "deliverypoint": "54039787875709"
+    },
+    {
+        "scheduleid": "5e72934eb5b7943e4a3d9f3f5a260e0b56430b4157f6e04c56718752b50b66f6",
+        "version": 91,
+        "date_utc": "2028-10-15T17:41:25Z",
+        "direction": "offtake",
+        "power": 16.95,
+        "deliverypoint": "54483242600775"
+    },
+    {
+        "scheduleid": "4cd7f0edf597db5ee81b176bfdfc716b4e06988ed10b056e92ef6e2965035332",
+        "version": 4,
+        "date_utc": "2021-04-15T17:07:53Z",
+        "direction": "offtake",
+        "power": 2.99,
+        "deliverypoint": "54754178591092"
+    },
+    {
+        "scheduleid": "5519507108e8eec8ca70193e24c8ac61eef302dc9b9fc465baa5226329b207a5",
+        "version": 100,
+        "date_utc": "2021-05-17T02:53:45Z",
+        "direction": "injection",
+        "power": 91.05,
+        "deliverypoint": "54000480698051"
+    },
+    {
+        "scheduleid": "9a34d249e23ed14b1d9bb912eb909d014cf0b13b12d86ce0b2beaa113af9b92d",
+        "version": 17,
+        "date_utc": "2029-03-11T03:33:47Z",
+        "direction": "injection",
+        "power": 61.45,
+        "deliverypoint": "54657260240076"
+    },
+    {
+        "scheduleid": "65f949bf5b1a7330628d26cccd93952576a6d19996f65a4b8ef890ed9a9ee0d3",
+        "version": 54,
+        "date_utc": "2025-08-24T12:06:55Z",
+        "direction": "injection",
+        "power": 35.77,
+        "deliverypoint": "54954915383027"
+    },
+    {
+        "scheduleid": "1699f88f74a050abb34e28b9bacd5544caa25f7042ef7cd3d49563b3a65928ac",
+        "version": 84,
+        "date_utc": "2026-08-25T04:43:16Z",
+        "direction": "injection",
+        "power": 75.47,
+        "deliverypoint": "54445560689315"
+    },
+    {
+        "scheduleid": "749dbaabce04cf983dd9af8deff9dc3c1dfa4e8933211bef6624793c0b534f1b",
+        "version": 49,
+        "date_utc": "2027-09-11T11:21:54Z",
+        "direction": "offtake",
+        "power": 5.11,
+        "deliverypoint": "54422552451491"
+    },
+    {
+        "scheduleid": "4fd7f753a28004071bbf4ef965da007810dd5679bf7ea6e8ee4d0e65fc491bff",
+        "version": 78,
+        "date_utc": "2023-08-07T00:29:21Z",
+        "direction": "injection",
+        "power": 59.17,
+        "deliverypoint": "54994048790930"
+    },
+    {
+        "scheduleid": "59edd7856d7392d609c4b132459a42f89c80c29c80bbc92db5cd5563947f9e81",
+        "version": 41,
+        "date_utc": "2022-06-27T02:36:04Z",
+        "direction": "injection",
+        "power": 18.86,
+        "deliverypoint": "54477455705708"
+    },
+    {
+        "scheduleid": "144df001f7761b5cfd5ab15eee2358eeeb27265298ea6e4342d79c0492084ad4",
+        "version": 84,
+        "date_utc": "2028-10-05T15:51:48Z",
+        "direction": "injection",
+        "power": 83.72,
+        "deliverypoint": "54708554351029"
+    },
+    {
+        "scheduleid": "a181a337b6ba412693fa7be2ff2e91701ddf0d9d75c5be8317433a17f1c28a0f",
+        "version": 99,
+        "date_utc": "2024-12-18T20:19:33Z",
+        "direction": "offtake",
+        "power": 42.25,
+        "deliverypoint": "54531384865933"
+    },
+    {
+        "scheduleid": "2b73ed9997e733e5e3123298704e06d1eea18fae10db78dedca8e5e2c158dc62",
+        "version": 43,
+        "date_utc": "2020-08-16T12:07:02Z",
+        "direction": "injection",
+        "power": 68.35,
+        "deliverypoint": "54325657257181"
+    },
+    {
+        "scheduleid": "5d2a015ae9b1207e1a52cea9e3062019a3af0177a64f3b2a01531e1822d23bf3",
+        "version": 51,
+        "date_utc": "2027-12-28T04:16:09Z",
+        "direction": "offtake",
+        "power": 57.27,
+        "deliverypoint": "54308138252907"
+    },
+    {
+        "scheduleid": "00dba0c5b971176a1c5b2d474345cacdc2ea9c29e92227c08e6673432d7bcd1b",
+        "version": 11,
+        "date_utc": "2022-12-29T08:15:37Z",
+        "direction": "offtake",
+        "power": 62.22,
+        "deliverypoint": "54154838331372"
+    },
+    {
+        "scheduleid": "59e854315aacd7a32fdbc1f6e5a00d4f77701918d60417a6b832513636ba83ab",
+        "version": 57,
+        "date_utc": "2026-11-12T16:13:28Z",
+        "direction": "injection",
+        "power": 32.78,
+        "deliverypoint": "54944915700215"
+    },
+    {
+        "scheduleid": "314f25e40fdee2bc0dc2ce3b4fc44ecf480adce1c1a32d12bac18791bc7ab4f9",
+        "version": 68,
+        "date_utc": "2021-05-25T16:01:04Z",
+        "direction": "injection",
+        "power": 11.19,
+        "deliverypoint": "54612192736044"
+    },
+    {
+        "scheduleid": "96eded1e8a88b8b636d22cb9febf535b75541b3684671f30db7e2c0872230267",
+        "version": 50,
+        "date_utc": "2027-07-04T09:26:16Z",
+        "direction": "injection",
+        "power": 84.3,
+        "deliverypoint": "54308538384936"
+    }
+]

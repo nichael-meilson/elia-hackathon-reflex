@@ -1,50 +1,19 @@
 import reflex as rx
 
+from .views.download.container import download_container
+
 from .backend.backend import State
 from .views.navbar import navbar
-from .views.stats import stats_ui
-from .views.table import main_table
-
-
-def _tabs_trigger(text: str, icon: str, value: str):
-    return rx.tabs.trigger(
-        rx.hstack(
-            rx.icon(icon, size=24),
-            rx.heading(text, size="5"),
-            spacing="2",
-            align="center",
-            width="100%",
-        ),
-        value=value,
-    )
-
+from .views.data_product.container import data_product_container
 
 def index() -> rx.Component:
     return rx.vstack(
         navbar(),
-        rx.tabs.root(
-            rx.tabs.list(
-                _tabs_trigger("Preview Data", "table-2", value="table"),
-                _tabs_trigger("Overview", "bar-chart-3", value="stats"),
-                _tabs_trigger("Create Query", "table-2", value="table"),
-            ),
-            rx.tabs.content(
-                main_table(),
-                margin_top="1em",
-                value="table",
-            ),
-            rx.tabs.content(
-                stats_ui(),
-                margin_top="1em",
-                value="stats",
-            ),
-            default_value="table",
-            width="100%",
-        ),
-        width="100%",
-        spacing="6",
-        padding_x=["1.5em", "1.5em", "3em", "5em"],
-        padding_y=["1.25em", "1.25em", "2em"],
+        rx.heading("Search Data", size="5"),
+        rx.hstack(
+            data_product_container(),
+            download_container()
+        )
     )
 
 
