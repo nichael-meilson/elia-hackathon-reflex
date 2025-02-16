@@ -16,7 +16,6 @@ def _tabs_trigger(text: str, icon: str, value: str):
         value=value,
     )
 
-
 def data_product_container():
     return rx.container(
         rx.hstack(
@@ -47,8 +46,8 @@ def data_product_container():
                 padding_x=["1.5em", "1.5em", "3em", "5em"],
                 padding_y=["1.25em", "1.25em", "2em"],
             ),
+            rx.spacer(),  # Pushes the download_container to the right
             download_container(),
             background_color="var(--white-3)",
-
         ),
     )

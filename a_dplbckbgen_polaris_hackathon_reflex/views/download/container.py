@@ -23,18 +23,6 @@ def download_container():
                 ),
                 rx.text("Download the selected data in CSV format."),
                 rx.button("Export Data"),
-                # rx.tabs.content(
-                #     main_table(),
-                #     margin_top="1em",
-                #     value="table",
-                # ),
-                # rx.tabs.content(
-                #     stats_ui(),
-                #     margin_top="1em",
-                #     value="stats",
-                # ),
-                # default_value="table",
-                # width="100%",
             ),
         )
     )
